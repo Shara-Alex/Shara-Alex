@@ -45,7 +45,7 @@ Multi-currency point of sale, fiscalised till receipts, lay-by handling and POS-
 Security groups, record rules and journal restrictions, scoped so they lock down manual entries without breaking POS closes or bank reconciliation.
 
 **🏢 Multi-branch setup and payroll**<br/>
-Branch-aware companies, warehouses and journals. Statutory payroll for two countries, carried across Odoo 17, 18 and 19.
+Branch-aware companies, warehouses and journals. Statutory payroll for two countries, carried across Odoo 17, 18, 19 & 20.
 
 </td>
 </tr>
