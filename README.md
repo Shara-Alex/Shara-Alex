@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Barlow+Semi+Condensed&weight=600&size=28&duration=3200&pause=900&color=E8A33D&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Manatsa+Mbanje;Python+backend+developer;I+design+business+process+flows+in+Odoo;Approvals+%C2%B7+Accounting+%C2%B7+Payroll+%C2%B7+Tax+%C2%B7+POS" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Barlow+Semi+Condensed&weight=700&size=42&duration=3200&pause=900&color=E8A33D&center=true&vCenter=true&width=900&height=80&lines=Hi%2C+I'm+Manatsa+Mbanje;Python+backend+developer;I+design+business+process+flows+in+Odoo;Approvals+%C2%B7+Accounting+%C2%B7+Payroll+%C2%B7+Tax+%C2%B7+POS" alt="Typing intro" />
 
 <br/>
 
