@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Barlow+Semi+Condensed&weight=600&size=28&duration=3200&pause=900&color=E8A33D&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Manatsa+Mbanje;Backend+developer+%C2%B7+Python+%C2%B7+PostgreSQL;Tax-authority+integrations+%26+payroll+engines;Building+ERP+systems+across+Zimbabwe+%26+Zambia" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Barlow+Semi+Condensed&weight=600&size=28&duration=3200&pause=900&color=E8A33D&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Manatsa+Mbanje;Python+backend+developer;I+design+business+process+flows+in+Odoo;Approvals+%C2%B7+Accounting+%C2%B7+Payroll+%C2%B7+Tax+%C2%B7+POS" alt="Typing intro" />
 
 <br/>
 
@@ -15,37 +15,60 @@
 
 ## 🧠 About me
 
-> **Backend developer** building the parts of a business system that cannot be wrong: invoices that must satisfy a revenue authority, payroll that must pay people correctly, and reports finance teams make decisions on. Mostly in **Python, PostgreSQL and Odoo**, for companies across Zimbabwe and Zambia.
+> ### **Python backend developer who designs and builds business process flows on Odoo.**
+> **I take how a company actually runs, from purchase to stock, sale, approval, books and tax, and turn it into one connected system where every step is controlled, every transaction posts correctly, and every report can be trusted.**
+>
+> Python · PostgreSQL · Odoo 17–19 · clients across Zimbabwe and Zambia
+
+## 🎯 What I do, and how
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 What I do
+**🔁 Approval workflows**<br/>
+Built a reusable approval engine from scratch: rules, request tracking, notifications, and an auto-joined Discuss channel with @mentions. Then I plugged it into stock takes, purchase returns, customer returns and credit notes.
 
-- 🧾 **Tax authority integrations:** real-time invoice signing with ZRA Smart Invoice and ZIMRA FDMS
-- 💼 **Payroll engines:** statutory payroll for two countries across Odoo 17, 18 and 19
-- 📊 **Reporting on SQL:** PostgreSQL views behind read-only Odoo models
-- 🚀 **Build and deploy:** Odoo.sh, AWS, Docker, and a shared module library distributed by Git submodules
+**📊 Accounting and management reports**<br/>
+P&L with budget and prior-year variance, stock valuation and movement, cost of sales, purchase tax and POS reconciliation. Heavy reports run on SQL, not Python loops.
+
+**🧾 Tax authority integrations**<br/>
+Real-time fiscal signing with ZIMRA FDMS (Zimbabwe) and ZRA Smart Invoice (Zambia), including recovering from production faults at the tax authority.
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ Currently
+**🛒 POS customisations**<br/>
+Multi-currency point of sale, fiscalised till receipts, lay-by handling and POS-to-ledger reconciliation.
 
-- 🇿🇲 **ZRA Smart Invoice compliance:** keeping Zambian clients fiscalised
-- 🧮 **Payroll:** implementation and maintenance in Zimbabwe and Zambia
-- 🔁 **Odoo 18 → 19 migrations:** custom modules and the shared library
-- 🏭 **A manufacturing implementation:** requisition approvals, drilling workflow, SQL report pack
+**🔐 Access rights and control**<br/>
+Security groups, record rules and journal restrictions, scoped so they lock down manual entries without breaking POS closes or bank reconciliation.
+
+**🏢 Multi-branch setup and payroll**<br/>
+Branch-aware companies, warehouses and journals. Statutory payroll for two countries, carried across Odoo 17, 18 and 19.
 
 </td>
 </tr>
 </table>
 
-### 🏆 Featured work
+## 🏆 Featured work
 
-**[84 duplicate fiscal receipts, found and reversed →](https://shara-alex.github.io/#case)**
-A client's ZRA portal held K 487,238 of sales their books never recorded. I traced the cause to a rollback that discarded receipts ZRA had already issued. I reversed all 84 duplicates with zero failed submissions, then changed the integration so a retry can never produce a second receipt.
+### End-to-end Odoo 18 implementation for a multi-branch retailer (Zimbabwe)
+
+**One connected process flow, from supplier to shelf to till to the books, built as 17 custom modules.** The client is not named.
+
+| Process | What I built |
+|---|---|
+| **Approvals** | A central approval engine, applied to stock counts, purchase returns, customer returns and credit notes |
+| **Inventory** | Count periods with variance history and PDF variance reports; bulk write-down of obsolete stock from Excel |
+| **Returns** | Supplier returns that create a linked credit note automatically; customer returns blocked until a credit note exists |
+| **Accounting** | Per-supplier purchase tax; journal-entry controls; P&L budget variance; stock valuation, movement, cost of sales and purchase tax reports |
+| **Point of sale** | Multi-currency POS (ported from v19 to v18) and a POS reconciliation report; v18 fixes to the lay-by and ZIMRA POS modules |
+| **Delivery** | One module per feature for clean upgrades, demo data for testing, and a setup guide covering install order, security groups, approval rules and a smoke test |
+
+<sub>Python · Odoo ORM · OWL · QWeb · PostgreSQL · ZIMRA FDMS</sub>
+
+**Also:** [how I found and reversed 84 duplicate fiscal receipts at the Zambia Revenue Authority →](https://shara-alex.github.io/#case)
 
 ## 🧰 Technical toolbox
 
