@@ -18,7 +18,7 @@
 > ### **Python backend developer who designs and builds business process flows on Odoo.**
 > **I take how a company actually runs, from purchase to stock, sale, approval, books and tax, and turn it into one connected system where every step is controlled, every transaction posts correctly, and every report can be trusted.**
 >
-> Python · PostgreSQL · Odoo 17–19 · clients across Zimbabwe and Zambia
+> Python · PostgreSQL · Odoo 17–20 · clients across Zimbabwe and Zambia
 
 ## 🎯 What I do, and how
 
